@@ -3,7 +3,7 @@ import "@/public/scss/main.scss";
 import InitAnimations from "@/components/layout/InitAnimations";
 
 export const metadata: Metadata = {
-  title: "Hostech - Web hosting & WHMCS React NextJs Template",
+  title: "amohaa - Web hosting & WHMCS React NextJs Template",
   description: "Web hosting & WHMCS React NextJs Template",
   keywords: [
     "clean",
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children} 
+        {children}<InitAnimations /> 
       </body>
     </html>
   );
